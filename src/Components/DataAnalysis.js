@@ -50,7 +50,7 @@ const UserDetails = ({ setCheck, setCheckApprover, setCheckUser }) => {
   const handleClickRecommend = async () => {
     console.log(proficiency);
     try {
-      const response = await axios.post("https://backend-mp-cpsf.onrender.com/recommend", {
+      const response = await axios.post("https://mlmodel-mp.onrender.com/recommend", {
         tech_stack: techStack,
         proficiency: proficiency.split(",").map((level) => level.trim()),
       });
