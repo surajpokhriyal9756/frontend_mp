@@ -44,7 +44,7 @@ const UserDetails = ({ setCheck, setCheckApprover, setCheckUser }) => {
         <div className="container-fluid ">
           <a
             className="navbar-brand d-lg font-weight-bold text-white me-2"
-            href="http://localhost:3000/user-management"
+            href="https://frontend-mp.onrender.com/user-management"
             onClick={(event) => {
               event.preventDefault(); // Prevent the default behavior of the link
               passRoute2(userData); // Call passRoute3 function with userData
@@ -70,7 +70,7 @@ const UserDetails = ({ setCheck, setCheckApprover, setCheckUser }) => {
                     className={`nav-link ${
                       activeLink === "Dashboard" ? "active" : ""
                     } text-white`}
-                    href="http://localhost:3000/user-data-analysis"
+                    href="https://frontend-mp.onrender.com/user-data-analysis"
                     onClick={() => {
                       handleLinkClick("Dashboard");
                     }}

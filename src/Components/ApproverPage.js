@@ -79,7 +79,7 @@ const ApproverPage = ({ checkApprover, setCheckApprover }) => {
         <div className="container-fluid ">
           <a
             className="navbar-brand d-lg font-weight-bold text-white me-2"
-            href="http://localhost:3000/approver-page"
+            href="https://frontend-mp.onrender.com/approver-page"
             onClick={(e) => {
               e.preventDefault();
               passRouteDash(userData); // Pass userData to the passRoute function
@@ -89,7 +89,7 @@ const ApproverPage = ({ checkApprover, setCheckApprover }) => {
           </a>
           <a
             className=" d-lg font-weight-bold text-white me-2 link"
-            href="http://localhost:3000/skill-page"
+            href="https://frontend-mp.onrender.com/skill-page"
             onClick={() => {
               handleLinkClick("Skills");
               passRoute(userData); // Pass userData to the passRoute function
@@ -99,7 +99,7 @@ const ApproverPage = ({ checkApprover, setCheckApprover }) => {
           </a>
           <a
             className=" d-lg font-weight-bold text-white me-2 link"
-            href="http://localhost:3000/certificate-page"
+            href="https://frontend-mp.onrender.com/certificate-page"
             onClick={() => {
               handleLinkClick("Certifications");
               passRoute2(userData); // Pass userData to the passRoute function
@@ -110,7 +110,7 @@ const ApproverPage = ({ checkApprover, setCheckApprover }) => {
 
           <a
             className=" d-lg font-weight-bold text-white me-2 link"
-            href="http://localhost:3000/project-page"
+            href="https://frontend-mp.onrender.com/project-page"
             onClick={() => {
               handleLinkClick("Projects");
               passRoute1(userData); // Pass userData to the passRoute function
@@ -121,7 +121,7 @@ const ApproverPage = ({ checkApprover, setCheckApprover }) => {
 
           <a
             className="navbar-brand d-lg font-weight-bold text-white me-2"
-            href="http://localhost:3000/home-page"
+            href="https://frontend-mp.onrender.com/home-page"
           >
             <img
               className="me-1 "
@@ -148,7 +148,7 @@ const ApproverPage = ({ checkApprover, setCheckApprover }) => {
                     className={`nav-link ${
                       activeLink === "Dashboard" ? "active" : ""
                     } text-white`}
-                    href="http://localhost:3000/approver-page"
+                    href="https://frontend-mp.onrender.com/approver-page"
                     onClick={(e) => {
                       e.preventDefault();
                       handleLinkClick("Dashboard");
@@ -163,7 +163,7 @@ const ApproverPage = ({ checkApprover, setCheckApprover }) => {
                     className={`nav-link ${
                       activeLink === "Approver_Desk" ? "active" : ""
                     } text-white`}
-                    href="http://localhost:3000/approver-desk"
+                    href="https://frontend-mp.onrender.com/approver-desk"
                     onClick={() => {
                       handleLinkClick("Approver_Desk");
                       passRoute3(userData);

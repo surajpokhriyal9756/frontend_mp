@@ -25,7 +25,7 @@ const Home = () => {
         <div className="container-fluid ">
           <a
             className="navbar-brand d-lg font-weight-bold text-white me-2"
-            href="http://localhost:3000/home-page"
+            href="https://frontend-mp.onrender.com/home-page"
           >
             <strong>SkillCorp Group </strong>{" "}
           </a>
@@ -33,7 +33,7 @@ const Home = () => {
           <div className="products-wrapper">
             <a
               className="d-lg font-weight-bold text-white  link products"
-              href="http://localhost:3000/home-page"
+              href="https://frontend-mp.onrender.com/home-page"
             >
               <h6>Products</h6>
 
@@ -65,7 +65,7 @@ const Home = () => {
           <div className="products-wrapper">
             <a
               className=" d-lg font-weight-bold text-white link products"
-              href="http://localhost:3000/home-page"
+              href="https://frontend-mp.onrender.com/home-page"
             >
               <h6>Service</h6>
               <div className="products-popup">
@@ -96,7 +96,7 @@ const Home = () => {
           <div className="products-wrapper">
             <a
               className=" d-lg font-weight-bold text-white  link products"
-              href="http://localhost:3000/home-page"
+              href="https://frontend-mp.onrender.com/home-page"
             >
               <h6>Pricing</h6>
               <div className="products-popup">
@@ -128,7 +128,7 @@ const Home = () => {
           <div className="products-wrapper">
             <a
               className="d-lg font-weight-bold text-white  link products"
-              href="http://localhost:3000/home-page"
+              href="https://frontend-mp.onrender.com/home-page"
             >
               <h6>About</h6>
 
@@ -147,7 +147,7 @@ const Home = () => {
 
           <a
             className="navbar-brand d-lg font-weight-bold text-white me-2"
-            href="http://localhost:3000/"
+            href="https://frontend-mp.onrender.com/"
           >
             <div className="login">
               <h6>Log In</h6>
@@ -333,7 +333,7 @@ const Home = () => {
             </p>
             <a
               className="navbar-brand d-lg font-weight-bold text-white me-2"
-              href="http://localhost:3000/"
+              href="https://frontend-mp.onrender.com/"
             >
               <button>Login Now...</button>
             </a>

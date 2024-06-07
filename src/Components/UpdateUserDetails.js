@@ -101,7 +101,7 @@ const UpdateUser = ({ setCheck }) => {
         <div className="container-fluid ">
         <a
             className="navbar-brand d-lg font-weight-bold text-white me-2"
-            href="http://localhost:3000/user-management"
+            href="https://frontend-mp.onrender.com/user-management"
             onClick={(event) => {
               event.preventDefault(); // Prevent the default behavior of the link
               passRouteUser(userData); // Call passRoute3 function with userData

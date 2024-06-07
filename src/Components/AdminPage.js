@@ -97,14 +97,14 @@ const AdminPage = ({ check, setCheck }) => {
               event.preventDefault(); // Prevent the default behavior of the link
               passRouteAdmin(userData); // Pass userData to the passRoute function
             }}
-            href="http://localhost:3000/admin-page"
+            href="https://frontend-mp.onrender.com/admin-page"
           >
             <strong>SkillCorp Group</strong>
           </a>
 
           <a
             className=" d-lg font-weight-bold text-white me-2 link"
-            href="http://localhost:3000/skill-page"
+            href="https://frontend-mp.onrender.com/skill-page"
             onClick={() => {
               handleLinkClick("Skills");
               passRoute(userData); // Pass userData to the passRoute function
@@ -114,7 +114,7 @@ const AdminPage = ({ check, setCheck }) => {
           </a>
           <a
             className=" d-lg font-weight-bold text-white me-2 link"
-            href="http://localhost:3000/certificate-page"
+            href="https://frontend-mp.onrender.com/certificate-page"
             onClick={() => {
               handleLinkClick("Certifications");
               passRoute2(userData); // Pass userData to the passRoute function
@@ -125,7 +125,7 @@ const AdminPage = ({ check, setCheck }) => {
 
           <a
             className=" d-lg font-weight-bold text-white me-2 link"
-            href="http://localhost:3000/project-page"
+            href="https://frontend-mp.onrender.com/project-page"
             onClick={() => {
               handleLinkClick("Projects");
               passRoute1(userData); // Pass userData to the passRoute function
@@ -136,7 +136,7 @@ const AdminPage = ({ check, setCheck }) => {
 
           <a
             className="navbar-brand d-lg font-weight-bold text-white me-2"
-            href="http://localhost:3000/"
+            href="https://frontend-mp.onrender.com/"
             onClick={handleLogout}
           >
             <img
@@ -160,7 +160,7 @@ const AdminPage = ({ check, setCheck }) => {
                     className={`nav-link ${
                       activeLink === "Dashboard" ? "active" : ""
                     } text-white`}
-                    href="http://localhost:3000/admin-page"
+                    href="https://frontend-mp.onrender.com/admin-page"
                     onClick={() => {
                       handleLinkClick("Dashboard");
                       passRoute3(userData);
@@ -175,7 +175,7 @@ const AdminPage = ({ check, setCheck }) => {
                     className={`nav-link ${
                       activeLink === "User_Management" ? "active" : ""
                     } text-white`}
-                    href="http://localhost:3000/user-management"
+                    href="https://frontend-mp.onrender.com/user-management"
                     onClick={() => {
                       handleLinkClick("User_Management");
                       passRouteManage(userData);
@@ -189,7 +189,7 @@ const AdminPage = ({ check, setCheck }) => {
                     className={`nav-link ${
                       activeLink === "Approver_Management" ? "active" : ""
                     } text-white`}
-                    href="http://localhost:3000/signup"
+                    href="https://frontend-mp.onrender.com/signup"
                     onClick={() => {
                       handleLinkClick("Approver_Management");
                       passRouteSignup(userData);

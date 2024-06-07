@@ -245,7 +245,7 @@ const SkillPage = ({
         <div className="container-fluid ">
           <a
             className="navbar-brand d-lg font-weight-bold text-white me-2"
-            href="http://localhost:3000/user-page"
+            href="https://frontend-mp.onrender.com/user-page"
             onClick={(event) => {
               event.preventDefault(); // Prevent the default behavior of the link
               passRoute3(userData); // Call passRoute3 function with userData
@@ -261,7 +261,7 @@ const SkillPage = ({
 
           <a
             className=" d-lg font-weight-bold text-white me-2 link"
-            href="http://localhost:3000/skill-page"
+            href="https://frontend-mp.onrender.com/skill-page"
             onClick={() => {
               // handleLinkClick('Skills');
               passRoute(userData); // Pass userData to the passRoute function
@@ -271,7 +271,7 @@ const SkillPage = ({
           </a>
           <a
             className=" d-lg font-weight-bold text-white me-2 link"
-            href="http://localhost:3000/certificate-page"
+            href="https://frontend-mp.onrender.com/certificate-page"
             onClick={() => {
               // handleLinkClick('Certifications');
               passRoute2(userData); // Pass userData to the passRoute function
@@ -282,7 +282,7 @@ const SkillPage = ({
 
           <a
             className=" d-lg font-weight-bold text-white me-2 link"
-            href="http://localhost:3000/project-page"
+            href="https://frontend-mp.onrender.com/project-page"
             onClick={() => {
               // handleLinkClick('Projects');
               passRoute1(userData); // Pass userData to the passRoute function
